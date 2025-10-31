@@ -1,4 +1,4 @@
-# Lab 4 - Infant Incubator Model and Simulator
+# Infant Incubator Model and Simulator
 
 The Infant Incubator is designed to provide a safe, controlled space for infants to live while their vital organs develop. Unlike a simple bassinet, an incubator provides an environment that can be adjusted to provide the ideal temperature as well as the perfect amount of oxygen, humidity, and light. 
 
@@ -6,7 +6,7 @@ The Infant Incubator is designed to provide a safe, controlled space for infants
 
 Please carefully read and understand about the Infant incubator and answer the following two questions:
 
-1) Summarize your understanding of Infant Incubator Simulator in no more than 500 words.
+1) Summarize your understanding of the Infant Incubator Simulator in no more than 500 words.
 2) Identify and list all the libraries being used in the project and explain in a sentence or two, what the parameters are.
 
 ## Submission
@@ -142,14 +142,6 @@ Note that there is also a different datasheet for PERSPEX and glass windows meas
 
 ## Special Acknowledgements
 
-We would like to thank Prof. John Hatcliff of Kansas State University and Mr. Todd Carpenter of Adventium Labs Dr. Raj Rajagopalan of Resideo for their invaluable insights and help in developing the Practical Cybersecurity concept as well as the Infant Incubator project.
-
-# LICENSE
-
-Copyright 2021 Lok Yan
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+We would like to thank Prof. John Hatcliff of Kansas State University, Mr. Todd Carpenter of Adventium Labs, and Dr. Raj Rajagopalan of Resideo for their invaluable insights and help in developing the Practical Cybersecurity concept as well as the Infant Incubator project.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
