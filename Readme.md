@@ -55,11 +55,12 @@ Write a preliminary threat model of the Infant Incubator system using the tables
 
 ## Submission Format
 
-**This is an individual submission.** Each student must submit their own work independently.
+**This is an individual submission.** Each student must submit their own work independently. Remember, you will be providing (and receiving) peerfeedback on submissions.
+While we grade as well, peer feedback is an important part of collaborative work. Your peers will provide feedback on how easy your submission is to navigate and read (in PDF format). 
 
 Your submission must be a **single PDF file** named: `lab2_<your_netid>.pdf`
 
-Structure your submission as follows:
+You are welcome to use any text editor of choice here, you do not have to use markdown tables. Structure your submission as follows:
 
 ```
 LAB 2 SUBMISSION
