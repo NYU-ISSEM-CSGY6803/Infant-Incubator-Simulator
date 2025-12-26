@@ -24,7 +24,7 @@ Explain the different **classes** used in the code. For each class, list:
 - Key **properties** (attributes/variables) and what they represent
 
 ### Task 3: Security Requirements (15 points)
-Using the security requirements template from the live lectures (see Content Pages if you have not attended the live lectures), list the security requirements that you think are important for this product. Consider requirements related to confidentiality, integrity, availability, authentication, and authorization.
+Using the security requirements template from class, list the security requirements that you think are important for this product. Consider requirements related to confidentiality, integrity, availability, authentication, and authorization.
 
 ### Task 4: Architecture Diagram (15 points)
 Draw a **Data Flow Diagram (DFD)** showing the various components that you can extract from the system description. Your diagram must:
