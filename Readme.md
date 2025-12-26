@@ -24,7 +24,7 @@ Explain the different **classes** used in the code. For each class, list:
 - Key **properties** (attributes/variables) and what they represent
 
 ### Task 3: Security Requirements (15 points)
-Using the security requirements template from class, list the security requirements that you think are important for this product. Consider requirements related to confidentiality, integrity, availability, authentication, and authorization.
+Using the security requirements template from the live lectures (see Content Pages if you have not attended the live lectures), list the security requirements that you think are important for this product. Consider requirements related to confidentiality, integrity, availability, authentication, and authorization.
 
 ### Task 4: Architecture Diagram (15 points)
 Draw a **Data Flow Diagram (DFD)** showing the various components that you can extract from the system description. Your diagram must:
@@ -55,12 +55,11 @@ Write a preliminary threat model of the Infant Incubator system using the tables
 
 ## Submission Format
 
-**This is an individual submission.** Each student must submit their own work independently. Remember, you will be providing (and receiving) peerfeedback on submissions.
-While we grade as well, peer feedback is an important part of collaborative work. Your peers will provide feedback on how easy your submission is to navigate and read (in PDF format). 
+**This is an individual submission.** Each student must submit their own work independently.
 
 Your submission must be a **single PDF file** named: `lab2_<your_netid>.pdf`
 
-You are welcome to use any text editor of choice here, you do not have to use markdown tables. Structure your submission as follows:
+Structure your submission as follows:
 
 ```
 LAB 2 SUBMISSION
@@ -176,6 +175,59 @@ ASSUMPTIONS:
 After submitting this lab, you will participate in a **peer review** activity. You will be assigned submissions from your classmates to review and provide constructive feedback. This is an important professional skill—learning to evaluate security analyses and provide helpful, actionable feedback to colleagues.
 
 More details about the peer review process will be provided after the submission deadline.
+
+---
+
+## Tips for Success
+
+Your peers will review your work. Here's what makes each section strong:
+
+### Task 1: System Summary
+- Show you understand the *purpose* and *how it works*, not just what it is
+- Mention key components: Room, Chamber, Infant, heaters, thermometers, network
+- Don't just copy—explain it in your own words
+
+### Why the Heat Transfer Details Matter (Read This!)
+You might wonder why there's so much physics in a security course. Here's why it's critical:
+
+- **Temperature = Life or Death.** Infants in incubators cannot regulate their own body temperature. Too cold → hypothermia. Too hot → hyperthermia, brain damage, or death. The "safe" range is narrow.
+- **Sensors can lie.** The thermometers report temperature to the control system. What if an attacker spoofs a lower temperature? The heater keeps heating. The infant overheats. The display shows everything is "fine."
+- **Heaters can be weaponized.** If an attacker gains control of the heater, they control the infant's environment. A heater running at full power with no safety cutoff is dangerous.
+- **The math tells you the stakes.** Heat transfer rates tell you *how fast* things can go wrong. An attack that disables cooling for 5 minutes might be survivable. An attack that maxes the heater for 30 minutes might not be.
+- **Network control = remote harm.** The system can be controlled over a network. An attacker doesn't need physical access to hurt someone.
+
+When you write your threat model, think about what an attacker could do to the *physical system* through the *cyber interface*. The heat transfer model shows you exactly how temperature manipulation translates to patient harm.
+
+### Task 2: Code Analysis
+- Be thorough: don't skip classes
+- Explain what each method *does*, not just its name
+- Write so a non-programmer manager could understand it
+
+### Task 3: Security Requirements
+- Make requirements **specific and testable** (bad: "system should be secure" → good: "authentication tokens must expire after 30 minutes")
+- Cover different categories: confidentiality, integrity, availability, authentication
+- Think about what matters most for a *medical device with an infant inside*
+
+### Task 4: Architecture Diagram
+- Label everything clearly
+- Show data flows with arrows (what data? which direction?)
+- Trust zones are critical: where does trusted end and untrusted begin? Draw the boundaries
+
+### Task 5: Vulnerability Analysis
+- Be specific about *how* an attacker exploits each vulnerability (step by step)
+- Describe realistic consequences—what's the worst that could happen to the infant?
+- Explicitly reference which of YOUR security requirements (Task 3) each vulnerability violates
+
+### Task 6: Threat Model
+- **Assets:** Pick assets that actually matter. Explain *why* they're critical
+- **Threats:** Be specific. "Attacker does bad things" is too vague. Who is the attacker? What exactly do they do? What's their goal?
+- **STRIDE:** Try to cover multiple categories, not just Spoofing
+- **Assumptions:** State them! (e.g., "Assuming the network is hospital WiFi," "Assuming attacker has physical access")
+
+### General
+- Proofread. Professional presentation matters
+- Use clear headings and formatting
+- If you make an assumption, write it down
 
 ---
 
