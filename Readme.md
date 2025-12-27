@@ -6,7 +6,7 @@ The Infant Incubator is designed to provide a safe, controlled space for infants
 
 ## Lab Overview
 
-In Labs 2-4 of the ISSEM course, you will apply the concepts you have learned in the theoretical modules to a real-world application: the Infant Incubator. This lab focuses on understanding the system, identifying security requirements, and performing threat modeling.
+In Labs 2-4 of the ISSEM course, you will apply the concepts you have learned in the theoretical modules to a real-world application: the Infant Incubator. This lab focuses on understanding the system, identifying security requirements, and performing threat modeling. It is completely virtualized, so try and imagine the final physical build of the device, but do treat it like a real machine!
 
 ---
 
@@ -172,7 +172,7 @@ ASSUMPTIONS:
 
 ## What's Next: Peer Review
 
-After submitting this lab, you will participate in a **peer review** activity. You will be assigned submissions from your classmates to review and provide constructive feedback. This is an important professional skill—learning to evaluate security analyses and provide helpful, actionable feedback to colleagues.
+After submitting this lab, you will participate in a **peer review** activity. You will be assigned submissions from your classmates to review and provide constructive feedback. This is an important professional skill learning to evaluate security analyses and provide helpful, actionable feedback to colleagues.
 
 More details about the peer review process will be provided after the submission deadline.
 
