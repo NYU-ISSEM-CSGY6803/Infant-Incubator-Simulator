@@ -8,6 +8,8 @@ The Infant Incubator is designed to provide a safe, controlled space for infants
 
 In Labs 2-4 of the ISSEM course, you will apply the concepts you have learned in the theoretical modules to a real-world application: the Infant Incubator. This lab focuses on understanding the system, identifying security requirements, and performing threat modeling. It is completely virtualized, so try and imagine the final physical build of the device, but do treat it like a real machine!
 
+It's good to read through the entire doucment before you get going. There is some weird stuff at the end about temperatures, that informed the way the incubator software was coded. 
+
 ---
 
 ## Tasks
@@ -172,9 +174,9 @@ ASSUMPTIONS:
 
 ## What's Next: Peer Review
 
-After submitting this lab, you will participate in a **peer review** activity. You will be assigned submissions from your classmates to review and provide constructive feedback. This is an important professional skill learning to evaluate security analyses and provide helpful, actionable feedback to colleagues.
+After submitting this lab, you will participate in a **peer review** activity. You will be assigned submissions from your classmates to review and provide constructive feedback. This is an important professional skill: learning to evaluate security analyses and provide helpful, actionable feedback to colleagues.
 
-More details about the peer review process will be provided after the submission deadline.
+More details about the peer review process are found after you submit on Peerceptiv (see Brightspace)
 
 ---
 
@@ -233,11 +235,9 @@ When you write your threat model, think about what an attacker could do to the *
 
 ## Infant Incubator Model Explained
 
-Cybersecurity education lacks practicality. We know the security principles. We know the importance of cryptography and building-security-in. We know the importance of an adversarial mindset (the security mindset). We know the importance of exposing assumptions (especially implicit ones). However, how many of us know how to apply these theoretical principles in the real world? How to trade off security for the other abilities. While build in security is incomplete, we also need to plan for upgrades.
+Cybersecurity education lacks practicality. We know the security principles. We know the importance of cryptography and building-security-in. We know the importance of an adversarial mindset (the security mindset). We know the importance of exposing assumptions (especially implicit ones). However, how many of us know how to apply these theoretical principles in the real world? How to trade off security for the other abilities. While build in security is incomplete, we also need to plan for upgrades and future unknown situations. It's a pretty tough spot to be in!
 
-To appreciate cybersecurity in practice, we must attempt to build a product with cybersecurity in mind. This Infant Incubator is such a product. It will be used as part of the Practical Cybersecurity series of courses that we are developing.
-
-The infant incubator was chosen because:
+To appreciate cybersecurity in practice, we must attempt to build a product with cybersecurity in mind. This Infant Incubator is such a product. The infant incubator was chosen because:
 
 1. It is a simple, yet valuable product.
 2. It is a cyber-physical system that exists in the real world, but can have a virtual (networked) presence.
